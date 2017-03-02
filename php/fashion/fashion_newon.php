@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>新品--路雅时尚网</title>
+	<link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../../font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../../css/public.css">
+	<link rel="stylesheet" href="../../css/fashion_newon.css">
+	<!--[if lt IE 9]>
+		<script src="../../js/lib/html5shiv.js"></script>
+		<script src="../../js/lib/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body class="fashion">
+	<!--顶部-->
+	<!-- <?php include "../common/login_top.php"; ?> -->
+	<div class="login-wrap">
+		<div class="hidden-xs">
+			<div class="container text-right ">
+				<input type="text" placeholder="search" class="top-search">
+				<span class="btn-my glyphicon glyphicon-search"></span>
+				<a href="/graduation_design/php/config/login.php"><span class="btn btn-sm btn-my-white btn-login">登录</span></a>
+				<a href="/graduation_design/php/config/reg_index.php"><span class="btn btn-sm btn-my-white btn-reg">注册</span></a>
+			</div>
+		</div>
+		<div class="hidden-lg hidden-md hidden-sm">
+			<div class="container text-left ">
+				<a href="/graduation_design/php/config/login.php"><span class="btn btn-sm btn-default btn-login">登录</span></a>
+				<a href="/graduation_design/php/config/reg_index.php"><span class="btn btn-sm btn-default btn-reg">注册</span></a>
+				<span class="search-mobile">
+					<input type="text" placeholder="search" class="top-search-sm">
+					<span class="btn-my glyphicon glyphicon-search"></span>
+				</span>
+			</div>
+		</div>
+	</div>
+	<!--LOGO-->
+	<!-- <?php include "../common/top_logo.php"; ?> -->
+	<div class="hidden-lg hidden-md hidden-sm">
+		<div class="container margin-5">
+			<div class="row">
+				<div class="col-xs-12" >
+					<img class="logo-small" src="../../images/lua1.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="hidden-xs">
+		<div class="container margin-15">	
+			<div class="row">
+				<div class="col-xs-12" >
+					<img class="logo-big" src="../../images/lua2.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--导航 -->
+	<!-- <?php include "../common/nav.php"; ?> -->
+	<div class="hidden-xs">
+		<div class="container" id="nav-fixed">
+			<div class="col-xs-12 padding-noh">
+				<div class="navbar navbar-my">
+					<div class="collapse navbar-collapse navbar-responsive-cpllapse collapse-my">
+						<ul class="nav navbar-nav">
+							<li>
+								<a href="../../index.php" type="1">首页</a>
+							</li>
+							<li>
+								<a href="../fashion/fashion_index.php" type="2">时装</a>
+								<div class="sec-menu fashion">
+									<a href="../fashion/fashion_tideway.php">潮流</a>
+									<a href="../fashion/fashion_collocation.php">搭配</a>
+									<a href="../fashion/fashion_newon.php">新品</a>
+								</div>
+							</li>
+							<li>
+								<a href="../beauty/beauty_index.php" type="3">美容</a>
+								<div class="sec-menu beauty">
+									<a href="../beauty/beauty_skincare.php">护肤</a>
+									<a href="../beauty/beauty_makeup.php">彩妆</a>
+									<a href="../beauty/beauty_hairdress.php">秀发</a>
+								</div>
+							</li>
+							<li>
+								<a href="../men/men_index.php" type="4">男士</a>
+								<div class="sec-menu men">
+									<a href="../men/men_clothes.php">衣装</a>
+									<a href="../men/men_wristwatch.php">腕表</a>
+									<a href="../men/men_menlook.php">理容</a>
+								</div>
+							</li>
+							<li>
+								<a href="../star/star_index.php" type="5">星姿态</a>
+								<div class="sec-menu star">
+									<a href="../star/star_style.php">明星风尚</a>
+									<a href="../star/star_news.php">娱乐新闻</a>
+								</div>
+							</li>
+							<li>
+								<a href="../life/life_index.php" type="6">生活</a>
+								<div class="sec-menu life">
+									<a href="../life/life_journey.php">旅行</a>
+									<a href="../life/life_emotion.php">情感</a>
+									<a href="../life/life_food.php">美食</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="hidden-lg hidden-md hidden-sm">
+		<div class="container remove-padding-x">
+			<div class="col-xs-12 remove-padding-x">
+				<div class="navbar navbar-my margin-0">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle navbar-toggle-mobile" data-toggle="collapse" data-target=".navbar-responsive-cpllapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button> 
+					</div>
+					<div class="collapse navbar-collapse navbar-responsive-cpllapse collapse-my-mobile">
+						<ul class="nav navbar-nav margin-0">
+							<li><a href="../../index.php"><i class="fa fa-home"></i>首页</a></li>
+							<li><a href="../fashion/fashion_index.php"><i class="fa fa-user"></i>时装</a></li>
+							<li><a href="../beauty/beauty_index.php"><i class="fa fa-paint-brush"></i>美容</a></li>
+							<li><a href="../men/men_index.php"><i class="fa fa-male"></i>男士</a></li>
+							<li><a href="../star/star_index.php"><i class="fa fa-star"></i>星姿态</a></li>
+							<li><a href="../life/life_index.php"><i class="fa fa-pagelines"></i>生活</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--开始-->
+	<div class="block1">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 padding-noh">
+					<div class="title-anchor">
+						<span>当前位置：<a href="../../index.php">首页</a> > <a href="fashion_index.php">时装</a> > 新品</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="block2">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="all-title">新品 NEWON</div>
+				</div>
+				<div class="col-xs-12 col-sm-9">
+					<a href="#" class="banner">
+						<img src="../../images/b8.jpg">
+						<div><span>喇叭裤才是撩人新武器！只要穿得好就能有腿又有A4腰</span></div>
+					</a>
+					<div class="item-wrap active" type="1">
+						<div class="item-detail">
+							<a href="#"><img src="../../images/b15.jpg"></a>
+							<span class="detail-right">
+								<a href="#"><span class="detail-title">女人一生需要多少包？时髦一辈子的5款包</span></a>
+								<span class="detail-text">手袋与我们之间的关系实在是太微妙了。一只手袋，足以透露你行走世
+								界的态度。它是你的铠甲——体体面面地装下你的“秘密”。所以，没有女人不爱手袋。 但是，你真的需
+								要那么多手袋吗？其实，真不一定.....</span>
+								<span class="detail-bottom"><i class="fa js-co fa-heart-o"></i>
+									<a><span class="share-btn">分享</span><span class="share-wrap"><i class="fa fa-qq"></i>
+									<i class="fa fa-weixin"></i><i class="fa fa-weibo"></i><i class="fa fa-close"></i></span></a>
+								</span>
+							</span>
+						</div>
+						<div class="item-detail">
+							<a href="#"><img src="../../images/s28.jpg"></a>
+							<span class="detail-right">
+								<a href="#"><span class="detail-title">Bally 2016春夏男士撞色休闲鞋系列</span></a>
+								<span class="detail-text">本季推出的Odone低帮运动鞋是对经典运动鞋做出的全新时尚演绎。
+								鞋面带有几何细节，搭配黑白、红白Bally Stripe条纹，经典又不失时尚特色。素面小牛皮和麂
+								皮混合材质结合粘合结构，配以厚款橡胶......</span>
+								<span class="detail-bottom"><i class="fa js-co fa-heart-o"></i>
+									<a><span class="share-btn">分享</span><span class="share-wrap"><i class="fa fa-qq"></i>
+									<i class="fa fa-weixin"></i><i class="fa fa-weibo"></i><i class="fa fa-close"></i></span></a>
+								</span>
+							</span>
+						</div>
+						<div class="item-detail">
+							<a href="fashion_6.php"><img src="../../images/b14.jpg"></a>
+							<span class="detail-right">
+								<a href="fashion_6.php"><span class="detail-title">可以背到老的年轻感手袋 有个性的大牌经典款</span></a>
+								<span class="detail-text">经典大牌手袋不限于在那些高档百货中人手一只的流行款，经典同时也可以极具
+								个性，并因复杂精湛的工艺而极少被“高仿”；之所以能成为经典，是因为它们大半“出生”已有年头，但是以下
+								的这些手袋，别样......</span>
+								<span class="detail-bottom"><i class="fa js-co fa-heart-o"></i>
+									<a><span class="share-btn">分享</span><span class="share-wrap"><i class="fa fa-qq"></i>
+									<i class="fa fa-weixin"></i><i class="fa fa-weibo"></i><i class="fa fa-close"></i></span></a>
+								</span>
+							</span>
+						</div>
+						<div class="item-detail">
+							<a href="#"><img src="../../images/s29.jpg"></a>
+							<span class="detail-right">
+								<a href="#"><span class="detail-title">可以搭配所有秋装的10双经典美鞋</span></a>
+								<span class="detail-text">流行趋势反反复复，但是有些单品却能永不过时。今天VOGUE为
+								你列出这10双经典美鞋，从运动鞋到皮草拖鞋再到征服众多女神的完美婚鞋，用高颜值高实
+								用度的鞋款打造秋季完美衣品......</span>
+								<span class="detail-bottom"><i class="fa js-co fa-heart-o"></i>
+									<a><span class="share-btn">分享</span><span class="share-wrap"><i class="fa fa-qq"></i>
+									<i class="fa fa-weixin"></i><i class="fa fa-weibo"></i><i class="fa fa-close"></i></span></a>
+								</span>
+							</span>
+						</div>
+						<div class="item-detail">
+							<a href="#"><img src="../../images/s30.jpg"></a>
+							<span class="detail-right">
+								<a href="#"><span class="detail-title">“adicolor” 2016春夏系列</span></a>
+								<span class="detail-text">追溯自1983 年起 adidas Originals “adicolor” 企划
+								每年都会为旗下一众火热鞋款谱上新色，以色彩缤纷的姿态震慑眼球。2016 年春夏季
+								度品牌重新打造出视觉效果......</span>
+								<span class="detail-bottom"><i class="fa js-co fa-heart-o"></i>
+									<a><span class="share-btn">分享</span><span class="share-wrap"><i class="fa fa-qq"></i>
+									<i class="fa fa-weixin"></i><i class="fa fa-weibo"></i><i class="fa fa-close"></i></span></a>
+								</span>
+							</span>
+						</div>
+						<div class="item-detail">
+							<a href="#"><img src="../../images/b15.jpg"></a>
+							<span class="detail-right">
+								<a href="#"><span class="detail-title">女人一生需要多少包？时髦一辈子的5款包</span></a>
+								<span class="detail-text">手袋与我们之间的关系实在是太微妙了。一只手袋，足以透露你行走世
+								界的态度。它是你的铠甲——体体面面地装下你的“秘密”。所以，没有女人不爱手袋。 但是，你真的需
+								要那么多手袋吗？其实，真不一定.....</span>
+								<span class="detail-bottom"><i class="fa js-co fa-heart-o"></i>
+									<a><span class="share-btn">分享</span><span class="share-wrap"><i class="fa fa-qq"></i>
+									<i class="fa fa-weixin"></i><i class="fa fa-weibo"></i><i class="fa fa-close"></i></span></a>
+								</span>
+							</span>
+						</div>
+						<div class="item-detail">
+							<a href="#"><img src="../../images/s28.jpg"></a>
+							<span class="detail-right">
+								<a href="#"><span class="detail-title">Bally 2016春夏男士撞色休闲鞋系列</span></a>
+								<span class="detail-text">本季推出的Odone低帮运动鞋是对经典运动鞋做出的全新时尚演绎。
+								鞋面带有几何细节，搭配黑白、红白Bally Stripe条纹，经典又不失时尚特色。素面小牛皮和麂
+								皮混合材质结合粘合结构，配以厚款橡胶......</span>
+								<span class="detail-bottom"><i class="fa js-co fa-heart-o"></i>
+									<a><span class="share-btn">分享</span><span class="share-wrap"><i class="fa fa-qq"></i>
+									<i class="fa fa-weixin"></i><i class="fa fa-weibo"></i><i class="fa fa-close"></i></span></a>
+								</span>
+							</span>
+						</div>
+						<div class="item-detail">
+							<a href="fashion_6.php"><img src="../../images/b14.jpg"></a>
+							<span class="detail-right">
+								<a href="fashion_6.php"><span class="detail-title">可以背到老的年轻感手袋 有个性的大牌经典款</span></a>
+								<span class="detail-text">经典大牌手袋不限于在那些高档百货中人手一只的流行款，经典同时也可以极具
+								个性，并因复杂精湛的工艺而极少被“高仿”；之所以能成为经典，是因为它们大半“出生”已有年头，但是以下
+								的这些手袋，别样......</span>
+								<span class="detail-bottom"><i class="fa js-co fa-heart-o"></i>
+									<a><span class="share-btn">分享</span><span class="share-wrap"><i class="fa fa-qq"></i>
+									<i class="fa fa-weixin"></i><i class="fa fa-weibo"></i><i class="fa fa-close"></i></span></a>
+								</span>
+							</span>
+						</div>
+					</div>
+					<div class="item-wrap" type="2">
+						<div class="item-detail">
+							<a href="#"><img src="../../images/b15.jpg"></a>
+							<span class="detail-right">
+								<a href="#"><span class="detail-title">女人一生需要多少包？时髦一辈子的5款包</span></a>
+								<span class="detail-text">手袋与我们之间的关系实在是太微妙了。一只手袋，足以透露你行走世
+								界的态度。它是你的铠甲——体体面面地装下你的“秘密”。所以，没有女人不爱手袋。 但是，你真的需
+								要那么多手袋吗？其实，真不一定.....</span>
+								<span class="detail-bottom"><i class="fa js-co fa-heart-o"></i>
+									<a><span class="share-btn">分享</span><span class="share-wrap"><i class="fa fa-qq"></i>
+									<i class="fa fa-weixin"></i><i class="fa fa-weibo"></i><i class="fa fa-close"></i></span></a>
+								</span>
+							</span>
+						</div>
+						<div class="item-detail">
+							<a href="#"><img src="../../images/s28.jpg"></a>
+							<span class="detail-right">
+								<a href="#"><span class="detail-title">Bally 2016春夏男士撞色休闲鞋系列</span></a>
+								<span class="detail-text">本季推出的Odone低帮运动鞋是对经典运动鞋做出的全新时尚演绎。
+								鞋面带有几何细节，搭配黑白、红白Bally Stripe条纹，经典又不失时尚特色。素面小牛皮和麂
+								皮混合材质结合粘合结构，配以厚款橡胶......</span>
+								<span class="detail-bottom"><i class="fa js-co fa-heart-o"></i>
+									<a><span class="share-btn">分享</span><span class="share-wrap"><i class="fa fa-qq"></i>
+									<i class="fa fa-weixin"></i><i class="fa fa-weibo"></i><i class="fa fa-close"></i></span></a>
+								</span>
+							</span>
+						</div>
+						<div class="item-detail">
+							<a href="#"><img src="../../images/b14.jpg"></a>
+							<span class="detail-right">
+								<a href="#"><span class="detail-title">可以背到老的年轻感手袋 有个性的大牌经典款</span></a>
+								<span class="detail-text">经典大牌手袋不限于在那些高档百货中人手一只的流行款，经典同时也可以极具
+								个性，并因复杂精湛的工艺而极少被“高仿”；之所以能成为经典，是因为它们大半“出生”已有年头，但是以下
+								的这些手袋，别样......</span>
+								<span class="detail-bottom"><i class="fa js-co fa-heart-o"></i>
+									<a><span class="share-btn">分享</span><span class="share-wrap"><i class="fa fa-qq"></i>
+									<i class="fa fa-weixin"></i><i class="fa fa-weibo"></i><i class="fa fa-close"></i></span></a>
+								</span>
+							</span>
+						</div>
+					</div>
+					<div class="page-wrap">
+						<span type="pre" class="page-pre">上一页</span>
+						<span type="1" class="page-btn active">1</span>
+						<span type="2" class="page-btn">2</span>
+						<span type="next" class="page-next">下一页</span>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-3">
+					<a href="#" class="right-one">
+						<img src="../../images/d33.jpg">
+						<div>吃了这五种食物皮肤就会变好</div>
+					</a>
+					<a href="#" class="right-one">
+						<img src="../../images/s16.jpg">
+						<div>长点心吧！长得美叫卧蚕你的叫眼袋</div>
+					</a>
+					<div class="right-two">
+						<a href="fashion_index.php" class="head-title"><span>精彩导读</span></a>
+						<div class="detail-all">
+							<a href="#">1.令人担忧的时装周</a>
+							<a href="#">3.冬天穿裙子千万别穿这几双鞋</a>
+							<a href="#">4.学会“添弃留”</a>
+							<a href="#">5.九分牛仔裤搭配这些鞋</a>
+							<a href="#">6.2016春夏Flowerland系列</a>
+						</div>
+					</div>
+					<div class="right-three">
+						<div><span>潮流</span></div>
+						<a href="#">
+							<img src="../../images/s26.jpg">
+							<p>听说 有一种美叫高圆圆</p>
+						</a>
+					</div>
+					<div class="right-three">
+						<div><span>提包</span></div>
+						<a href="#">
+							<img src="../../images/s27.jpg">
+							<p>Johnny Coca首个Capsule系列</p>
+						</a>
+					</div>
+					<div class="right-four">
+						<div class="subject-top">
+							<div class="subject-top-hr"></div>
+							<div class="subject-top-title">热门小标签</div>
+						</div>
+						<span>星二代</span><span>穿帮镜头</span><span class="active">香港小姐</span>
+						<span >情侣</span><span >经典台词</span><span>素颜</span>
+						<span>修眉</span><span >爸爸去哪儿</span><span class="active">怀孕</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="block3">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="ad">
+						相关推广
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-3">
+					<a href="#" class="bottom-item">
+						<img src="../../images/s20.jpg">
+						<div>5分钟搭配法 出门前再也不用愁搭配了</div>
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-3">
+					<a href="#" class="bottom-item">
+						<img src="../../images/s21.jpg">
+						<div>女人啊 你的衣橱不能只有高跟鞋和小黑裙</div>
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-3">
+					<a href="#" class="bottom-item">
+						<img src="../../images/s23.jpg">
+						<div>“雌雄莫辩”是她们引领了中性风潮</div>
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-3">
+					<a href="#" class="bottom-item">
+						<img src="../../images/s24.jpg">
+						<div>浪漫波西米亚 把印花穿得比凯特王妃更胜一筹</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--底部-->
+	<!-- <?php include "../common/footer.php"; ?> -->
+	<div class="footer">
+		<div class="col-xs-12">
+			<div class="hidden-xs">
+				<img class="big" src="../../images/lua3.png">
+			</div>
+			<div class="hidden-lg hidden-sm hidden-md">
+				<img class="sm" src="../../images/lua3.png">
+			</div>
+			<div class="foot-list">
+				<a href="../config/contact.php" class="foot-item">关于我们</a>
+				<a href="../config/map.php" class="foot-item">网站地图</a>
+				<a href="../config/contact.php" class="foot-item">联系我们</a>
+				<a href="../config/contact.php" class="foot-item">版权声明</a>
+				<div class="brand">版权所有 DM</div>
+			</div>
+		</div>
+		<div class="back-top"><i class="fa fa-arrow-up"></i></div>
+	</div>
+
+	<script src='../../js/lib/jquery-1.12.1.min.js'></script>
+	<script src='../../bootstrap/js/bootstrap.min.js'></script>
+	<script src="../../js/public.js"></script>
+	<script src="../../js/fashion_newon.js"></script>
+
+
+</body>
+</html>

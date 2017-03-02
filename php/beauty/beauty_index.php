@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>美容--路雅时尚网</title>
+	<link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../../font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../../css/public.css">
+	<link rel="stylesheet" href="../../css/beauty_index.css">
+	<!--[if lt IE 9]>
+		<script src="../../js/lib/html5shiv.js"></script>
+		<script src="../../js/lib/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body class="beauty">
+	<!--顶部-->
+	<!-- <?php include "../common/login_top.php"; ?> -->
+	<div class="login-wrap">
+		<div class="hidden-xs">
+			<div class="container text-right ">
+				<input type="text" placeholder="search" class="top-search">
+				<span class="btn-my glyphicon glyphicon-search"></span>
+				<a href="/graduation_design/php/config/login.php"><span class="btn btn-sm btn-my-white btn-login">登录</span></a>
+				<a href="/graduation_design/php/config/reg_index.php"><span class="btn btn-sm btn-my-white btn-reg">注册</span></a>
+			</div>
+		</div>
+		<div class="hidden-lg hidden-md hidden-sm">
+			<div class="container text-left ">
+				<a href="/graduation_design/php/config/login.php"><span class="btn btn-sm btn-default btn-login">登录</span></a>
+				<a href="/graduation_design/php/config/reg_index.php"><span class="btn btn-sm btn-default btn-reg">注册</span></a>
+				<span class="search-mobile">
+					<input type="text" placeholder="search" class="top-search-sm">
+					<span class="btn-my glyphicon glyphicon-search"></span>
+				</span>
+			</div>
+		</div>
+	</div>
+	<!--LOGO-->
+	<!-- <?php include "../common/top_logo.php"; ?> -->
+	<div class="hidden-lg hidden-md hidden-sm">
+		<div class="container margin-5">
+			<div class="row">
+				<div class="col-xs-12" >
+					<img class="logo-small" src="../../images/lua1.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="hidden-xs">
+		<div class="container margin-15">	
+			<div class="row">
+				<div class="col-xs-12" >
+					<img class="logo-big" src="../../images/lua2.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--导航 -->
+	<!-- <?php include "../common/nav.php"; ?> -->
+	<div class="hidden-xs">
+		<div class="container" id="nav-fixed">
+			<div class="col-xs-12 padding-noh">
+				<div class="navbar navbar-my">
+					<div class="collapse navbar-collapse navbar-responsive-cpllapse collapse-my">
+						<ul class="nav navbar-nav">
+							<li>
+								<a href="../../index.php" type="1">首页</a>
+							</li>
+							<li>
+								<a href="../fashion/fashion_index.php" type="2">时装</a>
+								<div class="sec-menu fashion">
+									<a href="../fashion/fashion_tideway.php">潮流</a>
+									<a href="../fashion/fashion_collocation.php">搭配</a>
+									<a href="../fashion/fashion_newon.php">新品</a>
+								</div>
+							</li>
+							<li>
+								<a href="../beauty/beauty_index.php" type="3">美容</a>
+								<div class="sec-menu beauty">
+									<a href="../beauty/beauty_skincare.php">护肤</a>
+									<a href="../beauty/beauty_makeup.php">彩妆</a>
+									<a href="../beauty/beauty_hairdress.php">秀发</a>
+								</div>
+							</li>
+							<li>
+								<a href="../men/men_index.php" type="4">男士</a>
+								<div class="sec-menu men">
+									<a href="../men/men_clothes.php">衣装</a>
+									<a href="../men/men_wristwatch.php">腕表</a>
+									<a href="../men/men_menlook.php">理容</a>
+								</div>
+							</li>
+							<li>
+								<a href="../star/star_index.php" type="5">星姿态</a>
+								<div class="sec-menu star">
+									<a href="../star/star_style.php">明星风尚</a>
+									<a href="../star/star_news.php">娱乐新闻</a>
+								</div>
+							</li>
+							<li>
+								<a href="../life/life_index.php" type="6">生活</a>
+								<div class="sec-menu life">
+									<a href="../life/life_journey.php">旅行</a>
+									<a href="../life/life_emotion.php">情感</a>
+									<a href="../life/life_food.php">美食</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="hidden-lg hidden-md hidden-sm">
+		<div class="container remove-padding-x">
+			<div class="col-xs-12 remove-padding-x">
+				<div class="navbar navbar-my margin-0">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle navbar-toggle-mobile" data-toggle="collapse" data-target=".navbar-responsive-cpllapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button> 
+					</div>
+					<div class="collapse navbar-collapse navbar-responsive-cpllapse collapse-my-mobile">
+						<ul class="nav navbar-nav margin-0">
+							<li><a href="../../index.php"><i class="fa fa-home"></i>首页</a></li>
+							<li><a href="../fashion/fashion_index.php"><i class="fa fa-user"></i>时装</a></li>
+							<li><a href="../beauty/beauty_index.php"><i class="fa fa-paint-brush"></i>美容</a></li>
+							<li><a href="../men/men_index.php"><i class="fa fa-male"></i>男士</a></li>
+							<li><a href="../star/star_index.php"><i class="fa fa-star"></i>星姿态</a></li>
+							<li><a href="../life/life_index.php"><i class="fa fa-pagelines"></i>生活</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--开始banner-->
+	<div class="block1">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 top-banner">
+					<div class="hidden-lg hidden-md hidden-sm">
+						<div class="sub-title">
+							<a class="item" href="beauty_skincare.php">护肤</a>
+							<span class="diff"></span>
+							<a class="item" href="beauty_makeup.php">彩妆</a>
+							<span class="diff"></span>
+							<a class="item" href="beauty_hairdress.php">秀发</a>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-3 remove-padding-x">
+						<a class="mask-text" href="#" type="1">
+							<div class="mask-hid one"></div>						
+							<img src="../../images/b17.jpg">
+							<div class="text-wrap"><span class="hid">90%的男人看不懂！女人头顶绑丝巾是什么鬼？</span><div class="mask-mask"></div></div>
+						</a>
+					</div>
+					<div class="col-xs-12 col-sm-3 remove-padding-x">
+						<a class="mask-text" href="#" type="2">
+							<div class="mask-hid two"></div>							
+							<img src="../../images/b16.jpg">
+							<div class="text-wrap"><span class="hid">肌肤要保湿 怎能少了贝德玛保湿爽肤水！</span><div class="mask-mask"></div></div>
+						</a>
+					</div>
+					<div class="col-xs-12 col-sm-3 remove-padding-x">
+						<a class="mask-text" href="#" type="3">						
+							<div class="mask-hid three"></div>	
+							<img src="../../images/b18.jpg">
+							<div class="text-wrap"><span class="hid">你造吗？ 这样美白比同龄女闺蜜小10岁</span><div class="mask-mask"></div></div>
+						</a>
+					</div>
+					<div class="col-xs-12 col-sm-3 remove-padding-x">
+						<a class="mask-text" href="beauty_1.php" type="4">						
+							<div class="mask-hid four"></div>	
+							<img src="../../images/b19.jpg">
+							<div class="text-wrap"><span class="hid">据说99%的直男 都喜欢扎马尾的妹子！</span><div class="mask-mask"></div></div>
+						</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="block2">
+		<div class="container">
+			<div class="row">
+				<div class="subject-top">
+					<div class="subject-top-hr"></div>
+					<div class="subject-top-title">护肤 SKIN CARE </div>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<a class="main-card  js-pb" href="#">
+						<img src="../../images/b21.jpg">
+						<div class="img-text">拿走不谢！2招搞定你的“黑眼圈”</div>
+					</a>
+					<a class="main-card  js-pb" href="#">
+						<img src="../../images/b20.jpg">
+						<div class="img-text">盘点7个抢了女人“饭碗”的男人们</div>
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<a class="main-card  js-pb" href="beauty_2.php">
+						<img src="../../images/a3.jpg">
+						<div class="img-text">女生的脸不能吹?怪你不会打底咯</div>
+					</a>
+					<a class="main-card  js-pb" href="#">
+						<img src="../../images/a4.jpg">
+						<div class="img-text">看完这篇后!我知道你对“它”上瘾了</div>
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<div class="right-all js-pb ext">
+						<i class="topright"></i>
+						<i class="bottomleft"></i>
+						<span><i class="fa fa-heart"></i>推荐</span>
+						<a href="#">
+							有种时髦叫十里春风不如小脸诱惑
+						</a>
+						<a href="beauty_3.php">
+							昆剧的狂想曲 KUNQU MADNESS
+						</a>
+						<a href="#">
+							梦妆携手花颜美男BTOB
+						</a>
+						<a href="#">
+							自拍狂潮即将席卷北京
+						</a>
+						<a href="#">
+							舞动佛兰明高的绮丽激情
+						</a>
+						<div class="hidden-sm">
+							<a href="#">
+								我要去澳洲，希望你会来找我！
+							</a>
+						</div>
+						<div class="get-more">
+							更多<i class="fa fa-arrow-right"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="block3">
+		<div class="container">
+			<div class="row">
+				<div class="subject-top">
+					<div class="subject-top-hr"></div>
+					<div class="subject-top-title">彩妆 MAKEUP </div>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<a class="mask-text js-pb2" href="beauty_4.php">						
+						<img src="../../images/a5.jpg">
+						<div class="text-wrap"><span class="hid">长点心吧！长得美叫卧蚕你的叫眼袋</span><div class="mask-mask"></div></div>
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<a class="mask-text js-pb2" href="#">						
+						<img src="../../images/a6.jpg">
+						<div class="text-wrap"><span class="hid">这样“去黑头” 效果明显100倍！</span><div class="mask-mask"></div></div>
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<a class="mask-text js-pb2" href="#">						
+						<img src="../../images/b22.jpg">
+						<div class="text-wrap"><span class="hid">人均5分钟 娱乐圈“女星开运眉”就画好了</span><div class="mask-mask"></div></div>
+					</a>
+				</div>
+				<div class="col-xs-12">
+					<div class="hot-wrap js-pb2 ">
+						<a href="#" class="col-xs-12 col-sm-4">2016最新最好的唇彩都在这里</a>
+						<a href="#" class="col-xs-12 col-sm-4">怎么办？这支隔离霜快把我宠坏</a>
+						<a href="#" class="col-xs-12 col-sm-4">透明白皙的美肌小秘密</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="block4">
+		<div class="container">
+			<div class="row">
+				<div class="subject-top">
+					<div class="subject-top-hr"></div>
+					<div class="subject-top-title">秀发 HAIRDRESS </div>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<a class="mask-text js-pb3" href="#">						
+						<img src="../../images/a1.jpg">
+						<div class="text-wrap"><span class="hid">别人的刘海你不配！ 二八偏分才是你的菜</span><div class="mask-mask"></div></div>
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<a class="mask-text js-pb3" href="#">						
+						<img src="../../images/a2.jpg">
+						<div class="text-wrap"><span class="hid">有图有真相！换个发型比整容都管用</span><div class="mask-mask"></div></div>
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<a class="mask-text js-pb3" href="#">						
+						<img src="../../images/b23.jpg">
+						<div class="text-wrap"><span class="hid">从三线小咖到顶级明星 仅仅是一个发型的距离</span><div class="mask-mask"></div></div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+	<!--底部-->
+	<!-- <?php include "../common/footer.php"; ?> -->
+	<div class="footer">
+		<div class="col-xs-12">
+			<div class="hidden-xs">
+				<img class="big" src="../../images/lua3.png">
+			</div>
+			<div class="hidden-lg hidden-sm hidden-md">
+				<img class="sm" src="../../images/lua3.png">
+			</div>
+			<div class="foot-list">
+				<a href="../config/contact.php" class="foot-item">关于我们</a>
+				<a href="../config/map.php" class="foot-item">网站地图</a>
+				<a href="../config/contact.php" class="foot-item">联系我们</a>
+				<a href="../config/contact.php" class="foot-item">版权声明</a>
+				<div class="brand">版权所有 DM</div>
+			</div>
+		</div>
+		<div class="back-top"><i class="fa fa-arrow-up"></i></div>
+	</div>
+
+	<script src='../../js/lib/jquery-1.12.1.min.js'></script>
+	<script src='../../bootstrap/js/bootstrap.min.js'></script>
+	<script src="../../js/public.js"></script>
+	<script src="../../js/beauty_index.js"></script>
+
+
+</body>
+</html>

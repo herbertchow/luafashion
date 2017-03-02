@@ -1,0 +1,75 @@
+/** login**/
+.login-page {
+	border:3px solid #bb9a6c;
+	border-radius: 5px;
+	margin: 30px auto;
+	padding: 25px;
+	text-align: center;
+}
+
+.login-page .get-title {
+	font-size: 16px;
+	color: #333;
+	font-weight: bold;
+}
+
+.login-page form {
+	text-align: left;
+    margin-left: 30%;
+}
+
+.login-page form input {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.login-page .lo-pwd {
+	margin-left: 14px;
+}
+
+.block1 .lo-btn {
+	margin:10px auto;
+	padding:5px 15px;
+	font-size: 14px;
+	color: #333;
+	background-color: #F5A30E;
+	border-radius: 5px;
+	border: none;
+}
+
+.block1 .ipt-log {
+	text-align: left;
+	padding-left: 35px;
+}
+
+@media (max-width: 768px) {
+	.login-page form {
+		margin:15px auto;
+		text-align: left;
+		margin-left: 3%;	
+	}
+
+	.login-page .get-title {
+		text-align: left;
+		margin-left: 10px;
+	}
+}	
+
+@media (min-width: 768px) {
+	
+
+}	
+
+@media (min-width: 768px) and (max-width: 992px) {
+	
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	
+}
+
+@media (min-width: 1200px) {
+	
+	
+}	

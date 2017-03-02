@@ -1,0 +1,271 @@
+/** login**/
+.login-page {
+	border:3px solid #bb9a6c;
+	border-radius: 5px;
+	margin: 30px auto;
+	padding: 25px;
+	text-align: center;
+}
+
+.login-page .get-title {
+	font-size: 16px;
+	color: #333;
+	font-weight: bold;
+}
+
+
+.user-change-wrap {
+	margin:0;
+	padding: 0;
+	display: block;
+}
+
+.user-change-wrap:before,.user-change-wrap:after {
+	content: " ";
+	display: table;
+}
+
+.user-change-wrap:after{
+	clear: both;
+}
+
+.user-change-wrap a {
+	width: 30%;
+	padding: 10px 10px;
+	margin: 10px 20px 0 20px;
+	text-align: center;
+	display: inline-block;
+	color: #000;
+	border-radius: 5px;
+	background-color: #ebebeb;
+}
+
+.user-change-wrap a.active {
+	background-color: #F5A30E;
+	color: #fff;
+}
+
+/**/
+
+.block1 .item-wrap {
+	display: none;
+	max-width: 100%;
+	text-align: left;
+	margin:20px auto;
+	padding:10px;
+}
+
+.block1 .item-wrap.active {
+	display: block;
+}
+
+.block1 .item-wrap .item-detail {
+	margin: 10px auto;
+	padding: 10px 0;
+	border-bottom: 1px solid #bbb;
+}
+
+.block1 .item-wrap .item-detail img {
+	float: left;
+}
+
+.block1 .item-wrap .item-detail .detail-right {
+	float: left;
+	display: inline-block;
+	padding: 2px 15px;
+}
+
+.block1 .item-wrap .item-detail:after,.block1 .item-wrap .item-detail:before {
+	content: " ";
+	display: table;
+}
+
+.block1 .item-wrap .item-detail:after {
+	clear: both;
+}
+
+.block1 .detail-title {
+	color: #F2AE51;
+	font-size: 18px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.block1 .detail-text {
+	display: inline-block;
+}
+
+.block1 .detail-bottom {
+	display: block;
+}
+
+.block1 .detail-bottom a {
+	cursor: pointer;
+	margin-left: 20px;
+	color: #F2AE51;
+	position: relative;
+}
+
+.block1 .detail-bottom a .share-wrap {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	display: none;
+	padding:5px;
+	background-color: #F2AE51;
+	width: 127px;
+	border-radius: 3px;
+}
+
+.block1 .detail-bottom a .share-wrap .fa {
+	color: #fff;
+	display: inline-block;
+	font-size: 18px;
+	margin:0 5px;
+}
+
+.block1 .detail-bottom .fa {
+	cursor: pointer;
+	color: #F2AE51;
+}
+
+.block1 .detail-bottom .fa.active {
+	color: #F2AE51;
+}
+
+.block1 .page-btn,.block1 .page-pre,.block1 .page-next {
+	display: inline-block;
+	cursor:pointer;
+	padding:3px 5px;
+	border: 1px solid #f60;
+	border-radius: 4px;
+	color: #444;
+	margin:0 5px;
+}
+
+.block1 .fav-cancle-btn {
+	cursor:pointer;
+	border: 1px solid #666;
+	border-radius: 3px;
+	color: #666;
+	padding:5px 25px;
+	margin: 10px;
+	display: inline-block;
+}
+/**/
+@media (max-width: 768px) {
+	.login-page form {
+		margin:15px auto;
+		text-align: left;
+		margin-left: 3%;	
+	}
+
+	.login-page .get-title {
+		text-align: left;
+		margin-left: 10px;
+	}
+
+		.block1 .item-wrap .item-detail img {
+		width: 80px;
+		height: 80px;
+		margin-top: 5px;
+	}
+	
+	.block1 .item-wrap {
+		margin:10px auto;
+		padding: 0px;
+	}
+
+	
+	.block1 .item-wrap .item-detail .detail-right {
+		max-width: 64%;
+		padding:0 5px;
+	}
+	
+	.block1 .detail-title { 
+		font-size: 15px;
+		margin-bottom: 5px;
+	}
+
+	.block1 .detail-text {
+		max-height: 38px;
+		overflow-y:hidden;
+	}
+	
+	.block1 .banner div {
+		padding: 5px;
+	}
+
+	.block1 .banner div span {
+		font-weight: normal;
+		font-size: 16px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		max-width: 100%;
+		white-space: nowrap;
+	}
+
+
+	.block1 .right-two {
+		margin-top: 20px;
+	}
+
+	.block1 .detail-all a {
+		display: block;
+		margin: 10px auto;
+	}
+
+	.block1 .detail-text {
+		display: none;
+	}
+
+	.block1 .login-page {
+		padding: 10px;
+	}
+
+	.block1 .fav-cancle-btn {
+		padding:2px 5px;
+		margin: 0px 10px;
+		display: inline-block;
+	}
+}	
+
+@media (min-width: 768px) {
+	
+
+}	
+
+@media (min-width: 768px) and (max-width: 992px) {
+	
+	.block1 .item-wrap .item-detail img {
+		width: 110px;
+		height: 110px;
+	}
+
+	.block1 .item-wrap .item-detail .detail-right {
+		max-width: 395px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.block1 .item-wrap .item-detail img {
+		width: 140px;
+		height: 140px;
+	}
+
+	.block1 .item-wrap .item-detail .detail-right {
+		max-width: 520px;
+	}
+}
+
+@media (min-width: 1200px) {
+	
+	.block1 .item-wrap .item-detail img {
+		width: 170px;
+		height: 170px;
+	}
+
+	.block1 .item-wrap .item-detail .detail-right {
+		max-width: 645px;
+	}
+}	

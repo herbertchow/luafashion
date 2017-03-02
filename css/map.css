@@ -1,0 +1,68 @@
+/** map**/
+.map-page {
+	border:3px solid #bb9a6c;
+	border-radius: 5px;
+	margin: 30px auto;
+	padding: 15px 25px 25px 25px;
+	text-align: center;
+}
+
+.map-page .top-title {
+	font-size: 20px;
+	font-weight: bold;
+	color: #444;
+}
+
+.map-page .item-wrap {
+	text-align: left;
+}
+
+.map-page .item-wrap a i{
+	margin-right: 5px;
+}
+
+.map-page .item-wrap .top-link {
+	font-size: 18px;
+	margin: 15px auto;
+	padding: 5px 0;
+	display: block;
+	border-bottom: 1px solid #bb9a6c;
+}
+
+.map-page .item-wrap .sub-link a {
+	display: inline-block;
+	margin-right:15%;
+}
+
+.map-page a:hover {
+	color: #f60;
+}
+
+@media (max-width: 768px) {
+	.map-page .item-wrap {
+		padding:0 10px;
+	}
+}	
+
+@media (min-width: 768px) {
+	
+
+}	
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.map-page .item-wrap {
+		padding:0 30px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.map-page .item-wrap {
+		padding:0 60px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.map-page .item-wrap {
+		padding:0 100px;
+	}
+}	
